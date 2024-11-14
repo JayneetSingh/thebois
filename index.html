@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Domain - Our Servers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to The Bois</h1>
+    <p>Explore And Play The Games We Provide!</p>
+    <input type="text" id="search" placeholder="Search for a game..." oninput="filterServers()">
+  </header>
+
+  <main id="server-list">
+    <!-- Minecraft Server Example -->
+    <div class="server-card" data-name="minecraft">
+      <img src="minecraft.jpg" alt="Minecraft" class="server-image">
+      <div class="server-info">
+        <h2>Minecraft Server</h2>
+        <p>Join Our Server For A Amazing Adventure</p>
+        <p><strong>Server Address:</strong> thebois.me</p>
+        <button onclick="window.open('minecraft://thebois.me')">Join Server</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
